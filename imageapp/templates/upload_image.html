@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Upload Image</title>
+	{% load static %}<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+</head>
+<body>
+	<form method="POST" enctype="multipart/form-data" name="imgform">
+        {% csrf_token %}
+        {{ form }}
+        <button name="choide" value="{{form.value}}">File Upload</button>
+	</form>
+    <p>
+    {% for img in imgdata %}
+        <img src="{{ img.image.url }}"/>
+    {% endfor %}
+    </p>    
+</body>
+</html>
