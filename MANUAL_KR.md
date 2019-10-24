@@ -6,7 +6,7 @@
 ## 구축 환경
 * OS: Ubuntu 18.04 LTS
 * Python: 3.7
-* Django: 2.2
+* Django: 2.2.4 (버전 최신화 반영)
 * MySQL: 5.7
 
 
