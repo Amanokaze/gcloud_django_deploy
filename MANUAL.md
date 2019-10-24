@@ -6,7 +6,7 @@
 ## Environment
 * OS: Ubuntu 18.04 LTS
 * Python: 3.7
-* Django: 2.2
+* Django: 2.2.4 (Version Merged)
 * MySQL: 5.7
 
 
